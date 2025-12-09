@@ -31,7 +31,7 @@ jobs:
       id: docker_meta
       uses: docker/metadata-action@v5
       with:
-        images: santospardos/docker-backend-car
+        images: santospardos/docker-backend-car-00
         flavor: |
           latest=false
         tags: |
